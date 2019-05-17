@@ -1,0 +1,30 @@
+{
+  "name": "befn",
+  "version": "1.0.0",
+  "description": "Functional programming tool library for begonia",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/begoniajs/begonia-fn.git"
+  },
+  "keywords": [
+    "begonia",
+    "miniprogram",
+    "functional"
+  ],
+  "author": "Brave Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/begoniajs/begonia-fn/issues"
+  },
+  "homepage": "https://github.com/begoniajs/begonia-fn#readme",
+  "devDependencies": {
+    "rollup": "^1.12.1"
+  }
+}
