@@ -25,6 +25,9 @@
   },
   "homepage": "https://github.com/begoniajs/begonia-fn#readme",
   "devDependencies": {
-    "rollup": "^1.12.1"
+    "rollup": "^1.12.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-size-snapshot": "^0.8.0",
+    "rollup-plugin-visualizer": "^1.1.1"
   }
 }
