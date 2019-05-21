@@ -10,7 +10,7 @@ class Either {
    * @public
    * @static
    *
-   * 接受一个值并返回新的容器
+   * @description 接受一个值并返回新的容器
    * @param {any} value [opational] 值
    *
    * @return {Right | Left} 新的容器
@@ -27,7 +27,7 @@ class Either {
    * @public
    * @static
    *
-   * 返回一个承载错误信息的容器
+   * @description 返回一个承载错误信息的容器
    * @param {any} value [required] 错误值
    * @return {Left} 存放错误值的容器
    */
@@ -39,7 +39,7 @@ class Either {
    * @public
    * @static
    *
-   * 返回一个存放正确值的容器
+   * @description 返回一个存放正确值的容器
    * @param {any} value [required] 正确的值
    */
   static right(value) {

@@ -1,10 +1,11 @@
-/**
- * 延迟函数
- */
+
 import { _ } from '../internal/common.js';
 import partial from '../operator/partial.js';
 import bind from '../operator/bind.js';
 
+/**
+ * 延迟函数
+ */
 const scheduler = (function() {
   const delayFn = bind(setTimeout, void 0, _, _);
 
