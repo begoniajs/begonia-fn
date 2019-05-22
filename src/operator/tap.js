@@ -1,7 +1,8 @@
+import isFunction from '../internal/isFunction';
 
 export default function tap(fn) {
   return function(param) {
-    if (typeof fn === 'function') {
+    if (isFunction(fn)) {
       fn.call(null, param);
     }
     return param;

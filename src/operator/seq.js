@@ -1,11 +1,7 @@
 import noop from '../internal/noop.js';
+import isFunction from '../internal/isFunction';
 
-export default function seq(...fnList) {
-  if (fnList.length <= 0) {
-    return noop;
-  }
+export default (...fnList) => (fnList.length <= 0)
+  ? noop
+  : value => fnList.forEach(item => isFunction(item) && item(value));
 
-  return function(value) {
-    fnList.forEach(item => typeof item === 'function' && item(value));
-  };
-};

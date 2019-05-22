@@ -1,13 +1,14 @@
 {
   "name": "befn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Functional programming tool library for begonia",
   "main": "./src/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "npx rollup -c"
   },
   "repository": {
     "type": "git",

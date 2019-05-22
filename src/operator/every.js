@@ -3,14 +3,14 @@ import isObject from '../internal/isObject.js';
 import everyAry from '../internal/everyAry.js';
 import everyObj from '../internal/everyObj.js';
 
-export default function every(list, fn) {
+export default function every(list, fn, scope) {
   if (!list || typeof fn === 'function') {
     return false;
   }
 
   return isObject(list)
-    ? everyObj(list)
+    ? everyObj(list, fn, scope)
     : isArray(list)
-      ? everyAry(list)
+      ? everyAry(list, fn, scope)
       : false;
 }
