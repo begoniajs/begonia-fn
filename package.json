@@ -1,8 +1,9 @@
 {
   "name": "befn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functional programming tool library for begonia",
-  "main": "./src/index.js",
+  "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "directories": {
     "test": "test"
   },
