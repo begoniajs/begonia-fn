@@ -32,7 +32,7 @@ export declare namespace scheduler {
    * @returns {any} 函数执行结果
    */
   function delay(fn: (value: any) => any, times: number): any;
-};
+}
 
 /**
  * 函数节流
