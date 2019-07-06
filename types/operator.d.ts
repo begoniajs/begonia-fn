@@ -7,7 +7,7 @@
  */
 export function alt(
   fn1: (value: any) => boolean,
-  fn2: (value: any) => boolean
+  fn2: (value: any) => any
 ): (value: any) => any;
 
 /**
